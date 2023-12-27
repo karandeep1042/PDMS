@@ -1,0 +1,78 @@
+.aboutmaincontainer {
+    width: 100%;
+    height: 80vh;
+    background-color: #2f2fa2;
+    /* background-color: #E2E7E7; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutparentcontainer {
+    width: 85%;
+    height: 95%;
+    box-shadow: 0 2px 4px 0 #c7c7c7;
+    /* box-shadow: 0 2px 4px 0 #fd7b30; */
+    display: flex;
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    border-radius: 35px;
+    padding: 3vh 3vh;
+}
+
+.childcontainermain {
+    width: 95%;
+    height: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #E2E7E7; */
+    border-radius: 35px;
+}
+
+.aboutleftchildcontainer {
+    width: 45%;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    background-image: url('https://img.freepik.com/free-vector/urban-city-background-video-conferencing_23-2148671559.jpg');
+    background-size: cover;
+    border-radius: 25px;
+}
+
+.aboutrightchildcontainer {
+    width: 45%;
+    height: 95%;
+    padding: 0px 25px;
+    
+}
+
+.abouthead {
+    color:#2f2fa2;
+    /* color: aliceblue; */
+    font-size: 80px;
+    font-family: verdana;
+    font-weight: 600;
+    /* margin-left: -41%; */
+    /* translate: -48%; */
+}
+
+.abouthead p {
+    /* padding-left: -20px; */
+    margin: 0%;
+}
+
+.aboutinformation{
+    width: 100%;
+    height: 79%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.aboutinformation p {
+    color:#2f2fa2;
+    /* color: aliceblue; */
+    word-wrap: normal;
+}

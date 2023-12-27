@@ -1,0 +1,559 @@
+.mainpropertylistcontainer {
+    width: 100%;
+    height: 93vh;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+
+.containerhead{
+    width: 80%;
+    height: 10%;
+}
+
+.listitemgetphone a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.propertylistcontainer {
+    /* box-shadow: 0 2px 4px 0 #c7c7c7; */
+    width: 80%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: flex-start;
+    z-index: 4;
+    /* padding: 15px; */
+}
+
+.filtercontainer {
+    width: 25%;
+    height: 90%;
+    /* box-shadow: 0 2px 4px 0 #c7c7c7; */
+    border: 1px solid #d7d7d7;
+    border-radius: 20px;
+}
+
+.propertysearchlistcontainer {
+    width: 70%;
+    height: 100%;
+    /* box-shadow: 0 2px 4px 0 #c7c7c7; */
+    border-radius:5px;
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+    padding: 1.2% 1%;
+    overflow: hidden;
+    overflow-y: scroll;
+    border: 1px solid #d7d7d7;
+}
+
+.filtersearchcontainer {
+    height: 20%;
+    width: 100%;
+    /* box-shadow: 0 2px 4px 0 #c7c7c7; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.filtersearchcity {
+    width: 85%;
+    height: 30%;
+    border-radius: 35px;
+    box-shadow: 0 2px 4px 0 #c7c7c7;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.filtersearchcityinput {
+    width: 80%;
+}
+
+.filtersearchcityinput input {
+    padding-left: 2vw;
+    width: 100%;
+    outline: none;
+}
+
+.filtersearchcitybtn {
+    width: 20%;
+    height: 100%;
+    background-color: #2f2fa2;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+    box-shadow: 0 2px 4px 0 #c7c7c7;
+    cursor: pointer;
+}
+
+.filterselectlist {
+    height: 75%;
+    width: 100%;
+    /* box-shadow: 0 2px 4px 0 #c7c7c7; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 3%;
+}
+
+.searchfilterhead {
+    width: 95%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 600;
+    color: #2f2fa2;
+}
+
+.searchfilterhead p {
+    margin: 0%;
+}
+
+.filterselectcontainer {
+    width: 95%;
+    height: 90%;
+}
+
+.filterbyflatcontainer {
+    width: 100%;
+    border-bottom: 1px solid #2f2fa2;
+    padding: 5% 0px;
+}
+
+.filtercontainerhead {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.filtercontainerhead p {
+    margin: 0%;
+    color: #2f2fa2;
+}
+
+.filterbypricecontainer {
+    width: 100%;
+    border-bottom: 1px solid #2f2fa2;
+    padding: 5% 0px;
+}
+
+.filterbysortcontainer {
+    width: 100%;
+    padding: 5% 0px;
+    /* height: 30%; */
+    /* box-shadow: 0 2px 4px 0 #c7c7c7; */
+}
+
+.filterchecklist {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+
+.filterchecklistitem {
+    width: 29%;
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    color: #480999;
+}
+
+.filterchecklistitem p {
+    margin: 0%;
+}
+
+.filterchecklistitemsort {
+    align-items: center;
+    width: 80%;
+    display: flex;
+    gap: 3%;
+    color: #480999;
+}
+
+.filterchecklistitemsort p {
+    margin: 0%;
+}
+
+.searchlistitemcontainer {
+    height: 23.6%;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px 0 #c7c7c7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1%;
+}
+
+.searchlistitemcontainer:hover {
+    box-shadow: 0 4px 16px 0 #c7c7c7;
+
+}
+
+.listitemimage img{
+    height: 80%;
+    width: 95%;
+    border-radius: 20px;
+}
+
+.listitemimage {
+    /* width: 25%;
+    height: 90%; */
+    /* image: url(''); */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0px 2.5%;
+}
+
+.listitemdetails {
+    width: 75%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 4%;
+}
+
+.itemhead p {
+    font-family: sans-serif;
+    font-weight: 600;
+    margin: 0%;
+}
+
+.detailbox {
+    box-shadow: 0 2px 4px 0 #c7c7c7;
+    width: 80%;
+    height: 40%;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 3%; */
+}
+
+.detailboxchild {
+    /* box-shadow: 0 2px 4px 0 #c7c7c7; */
+    width: 40%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+}
+
+.detailboxchildinfo p {
+    margin: 0%;
+}
+
+.detailboxchild i {
+    font-size: 25px;
+    color: #2f2fa2;
+}
+
+.subboxtitle {
+    font-size: 10px;
+    color: grey;
+    font-family: verdana;
+}
+
+.subboxdesc {
+    font-size: 13px;
+    font-family: verdana;
+    font-weight: 500;
+}
+
+.itemdesc {
+    font-size: 15px;
+    color: grey;
+    font-family: verdana;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 36%;
+}
+
+.itemdesc p {
+    margin: 0%;
+}
+
+.listitembtncontainer {
+    width: 20%;
+    background-color: #e9e8e8;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.listitemimganddetail {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+}
+
+.listitemprice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40%;
+}
+
+.listitemprice p {
+    margin: 0%;
+    color: #2f2fa2;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.listitembuttons {
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+
+.listitemcontactowner p {
+    margin: 0%;
+}
+
+.listitemcontactowner:hover {
+    background-color: #2f2fa2;
+    color: aliceblue;
+}
+
+.listitemcontactowner {
+    cursor: pointer;
+    width: 80%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #2f2fa2;
+    background-color: aliceblue;
+    color: #2f2fa2;
+    border-radius: 15px;
+}
+
+.listitemgetphone p {
+    margin: 0%;
+}
+
+.listitemgetphone:hover {
+    border: 1px solid #2f2fa2;
+    background-color: #242582;
+    color: #2f2fa2;
+}
+
+.listitemgetphone {
+    cursor: pointer;
+    background-color: #2f2fa2;
+    color: aliceblue;
+    border-radius: 15px;
+    width: 80%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filterapplybtn {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    cursor: pointer;
+    background-color: #2f2fa2;
+    border-radius: 25px;
+}
+
+.filterapplybtn a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 600;
+}
+
+.filterapplybtn:hover {
+    background-color: #242582;
+}
+
+.filtersearchcitybtn:hover {
+    background-color: #242582;
+
+}
+
+input[type='checkbox'] {
+    appearance: none;
+    -webkit-appearance: none;
+    height: 1.5vh;
+    width: 0.8vw;
+    background-color: #c2b3ec;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type='checkbox']:after {
+    content: "\f00c";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    font-size: 0.6rem;
+    color: white;
+    /* background-color: #2f2fa2; */
+    display: none;
+}
+
+input[type='checkbox']:hover {
+    background-color: #bba7f1;
+}
+
+input[type='checkbox']:checked {
+    background-color: #2f2fa2;
+    color: white;
+}
+input[type='checkbox']:checked::after {
+    display: block;
+}
+
+.propertysearchlistcontainer::-webkit-scrollbar{
+    width: 7px;
+}
+.propertysearchlistcontainer::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+.propertysearchlistcontainer::-webkit-scrollbar-thumb{
+    /* background: linear-gradient(#2f2fa2,#ee5edd); */
+    background: #d7d7d7;
+    border-radius: 35px;
+}
+
+::-webkit-scrollbar{
+    width: 0.6vw;
+}
+::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #d7d7d7;
+    border-radius: 75px;
+}
+
+.contactform-box{
+    position: fixed;
+    width: 21%;
+    height: 42vh;
+    background-color: white;
+    padding: 1%;
+    transform: scale(0);
+    border: 1px solid #d7d7d7;
+    border-radius: 15px;
+    z-index: 8;
+    transition: transform .5s ease;
+    overflow: hidden;
+}
+
+.icon-closee {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 45px;
+    height: 45px;
+    background: #2f2fa2;
+    font-size: 2em;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    cursor: pointer;
+    z-index: 50;
+
+}
+
+.contactform-box.activeee{
+    transform: scale(1);
+}
+
+.contactform-box h2{
+    color: #2f2fa2;
+    font-weight: 600;
+    text-align: center;
+    height: 10%;
+}
+
+.logoandinput{
+    position: relative;
+}
+
+.logoandinput span{
+    color: #2f2fa2;
+    position: absolute;
+    width: 10%;
+    top: 0px;
+    right: 0px;
+}
+
+.contactinput-box{
+    width: 85%;
+}
+
+.contactinput-box label{
+    color: #2f2fa2;
+    font-weight: 600;
+}
+
+.logoandinput input{
+    width: 85%;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+    outline: none;
+    padding-left: 2%;
+}
+
+.logoandinput textarea{
+    resize: none;
+    width: 85%;
+    height: 18vh;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+    outline: none;
+    padding-left: 2%;
+}
+
+.contactformbtn{
+    width: 85%;
+    height: 5vh;
+    border-radius: 15px;
+    background-color: #2f2fa2;
+    color: aliceblue;
+    font-weight: 600;
+}
+
+form{
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2%;
+}

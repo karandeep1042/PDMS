@@ -1,0 +1,306 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    border: none;
+}
+
+.navContainer {
+    width: 100%;
+    height: 7vh;
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.navParent {
+    display: flex;
+    width: 100%;
+    height: 7vh;
+    position: fixed;
+    background-color: #2f2fa2;
+    transition: 400ms ease-in-out;
+}
+
+.active {
+    background-color: white;
+    box-shadow: 0 2px 4px 0 #c7c7c7;
+    z-index: 5;
+}
+
+#activee {
+    color: #2f2fa2;
+}
+
+.navListitems {
+    font-weight: 700;
+    font-size: 17px;
+    display: flex;
+    list-style-type: none;
+    width: 40%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navListitems li {
+    transition: 1s ease-in-out;
+}
+
+.navListitems li a {
+    color: white;
+    text-decoration: none;
+}
+
+#item {
+    color: white;
+    text-decoration: none;
+}
+
+
+.optionList {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    height: 100%;
+    padding: 5px;
+    font-family: 'Segoe UI';
+}
+
+.loginbtnchild:hover {
+    cursor: pointer;
+    color: white;
+    background-image: linear-gradient(to right, #f64c72, rgb(235, 130, 32));
+    transition: background-image 2s ease-in;
+}
+
+.loginbtn {
+    display: flex;
+    align-items: center;
+    margin-right: 1vw;
+}
+
+.navLogo {
+    font-size: 50px;
+    padding: 5px;
+    align-self: center;
+    margin-left: 1vw;
+    /* color: #f64c72; */
+    cursor: pointer;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(to right, #f64c72, rgb(235, 130, 32));
+}
+
+.loginbtnchild {
+    color: #f64c72;
+    padding: 10px 30px;
+    border-width: 3px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #f64c72, rgb(235, 130, 32)) 1;
+}
+
+.navListitems li:hover {
+    cursor: pointer;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(to right, #f64c72, rgb(235, 130, 32));
+}
+
+.wrapper {
+    position: fixed;
+    top: 30%;
+    width: 20%;
+    height: 400px;
+    background-color: aliceblue;
+    margin: 0 auto;
+    /* border: 2px solid rgba(255,255,255,.5); */
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transform: scale(0);
+    transition: transform .5s ease, height .2s ease;
+    z-index: 99;
+}
+
+.wrapper.active-popup {
+    transform: scale(1);
+}
+
+.wrapper .form-box {
+    width: 100%;
+    padding: 40px;
+}
+
+.form-box h2 {
+    font-size: 2em;
+    color: #2f2fa2;
+    text-align: center;
+    font-weight: 700;
+}
+
+.input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #2f2fa2;
+    margin: 30px 0;
+}
+
+.input-box label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: #2f2fa2;
+    font-weight: 500;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.input-box input:focus~label,
+.input-box input:valid~label {
+    top: -5px;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: #2f2fa2;
+    font-weight: 600;
+}
+
+.input-box .icon {
+    position: absolute;
+    right: 8px;
+    font-size: 1.2em;
+    color: #2f2fa2;
+    line-height: 57px;
+}
+
+.remember-forgot {
+    font-size: .8em;
+    color: #2f2fa2;
+    font-weight: 500;
+    margin: -15px 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.remember {
+    display: flex;
+    align-items: center;
+    font-size: .9rem;
+    gap: 2px;
+}
+
+.remember-forgot a {
+    color: #2f2fa2;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+.loginformbtn {
+    width: 100%;
+    height: 45px;
+    background-color: #2f2fa2;
+    color: aliceblue;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: 0.3s ease-in-out;
+}
+
+.loginformbtn:hover {
+    background-color: #242582;
+}
+
+.login-register {
+    font-size: .9em;
+    color: #2f2fa2;
+    text-align: center;
+    font-weight: 500;
+    margin: 25px 0px 10px;
+}
+
+.login-register p a {
+    text-decoration: none;
+    color: #2f2fa2;
+    font-weight: 700;
+}
+
+.login-register p a:hover {
+    text-decoration: underline;
+}
+
+/* .wrapper .span{
+    cursor: pointer;
+} */
+.wrapper .icon-close {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 45px;
+    height: 45px;
+    background: #2f2fa2;
+    font-size: 2em;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    cursor: pointer;
+    z-index: 50;
+}
+
+.wrapper .form-box.login {
+    transition: transform .18s ease;
+    transform: translateX(0);
+}
+
+.wrapper .form-box.register {
+    position: absolute;
+    transition: none;
+    transform: translateX(400px);
+}
+
+.wrapper.active .form-box.register {
+    transition: transform .18s ease;
+    transform: translateX(0);
+}
+
+.wrapper .form-box.login {
+    transition: transform .18s ease;
+    transform: translateX(0);
+}
+
+.wrapper.active {
+    height: 520px;
+}
+
+.wrapper.active .form-box.login {
+    transition: none;
+    transform: translateX(-400px);
+}
+
+.overlay {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0%;
+    z-index: 5;
+}

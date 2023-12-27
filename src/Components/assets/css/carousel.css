@@ -1,0 +1,67 @@
+.maincarousel{
+    width: 100%;
+    height: 50vh;
+    background-color: #F4F5F4;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carouselcontainer{
+    width: 84.7%;
+    height: 72%;
+    box-shadow: 0 2px 4px 0 #6c6c72;
+    border-radius: 15px;
+    padding: 10px 20px;
+}
+
+.carouselparent{
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px 0 #6c6c72;
+}
+
+.flatdetails{
+    padding: 10px;
+    gap: 5px;
+}
+
+.flatdetails a{
+    text-decoration: none;
+}
+
+.enquirebtn{
+    display: flex;
+    background-color:#2f2fa2;
+    color: aliceblue;
+    border-radius: 25px;
+    padding: 5px;
+    width: 100%;
+    justify-content: center;
+}
+
+.enquirebtn:hover{
+    background-color: #242582;
+}
+
+.slick-slide > div{
+    margin: 0 10px;
+}
+
+.carouselparent1{
+    padding: 5px 1px;
+}
+
+.firstcarouselhead{
+    display: flex;
+    width: 83%;
+    /* border-bottom: 1px solid #242582; */
+    justify-self: flex-start;
+    margin-bottom: 1%;
+}
+
+.bottomcarouselparent1{
+    width: 49%;
+    height: 100%;
+}
